@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#123b75">
+<meta name="description" content="KSEAB SSLC Mathematics learning, practice and mock exams in Kannada and English.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="styles.css">
+<title>SSLC Maths • KSEAB</title>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><div class="brandmark">∑</div><div><strong>SSLC Maths</strong><small>KSEAB • Class 10</small></div></div>
+  <div class="top-actions"><button id="langBtn" class="lang-btn" aria-label="Change language">ಕನ್ನಡ</button><button id="installBtn" class="icon-btn" hidden aria-label="Install app">＋</button></div>
+</header>
+<main>
+  <section class="hero">
+    <div class="hero-copy"><span class="eyebrow" data-en="LEARN • PRACTISE • SUCCEED" data-kn="ಕಲಿ • ಅಭ್ಯಾಸ ಮಾಡು • ಯಶಸ್ವಿಯಾಗು">LEARN • PRACTISE • SUCCEED</span>
+      <h1 data-en="Your SSLC Maths companion" data-kn="ನಿಮ್ಮ ಎಸ್‌ಎಸ್‌ಎಲ್‌ಸಿ ಗಣಿತ ಸಂಗಾತಿ">Your SSLC Maths companion</h1>
+      <p data-en="Learn concepts, revise formulas and practise at your own pace — even offline." data-kn="ಪರಿಕಲ್ಪನೆಗಳನ್ನು ಕಲಿಯಿರಿ, ಸೂತ್ರಗಳನ್ನು ಪುನರವಲೋಕಿಸಿ ಮತ್ತು ನಿಮ್ಮ ವೇಗದಲ್ಲಿ ಅಭ್ಯಾಸ ಮಾಡಿ — ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿಯೂ.">Learn concepts, revise formulas and practise at your own pace — even offline.</p>
+      <div class="hero-stats"><div><b id="chapterCount">15</b><span data-en="Chapters" data-kn="ಅಧ್ಯಾಯಗಳು">Chapters</span></div><div><b>2</b><span data-en="Languages" data-kn="ಭಾಷೆಗಳು">Languages</span></div><div><b>∞</b><span data-en="Practice" data-kn="ಅಭ್ಯಾಸ">Practice</span></div></div>
+    </div><div class="math-art" aria-hidden="true"><span>π</span><span>√x</span><span>△</span><span>∑</span><span>∠</span></div>
+  </section>
+  <nav class="tabs" aria-label="Main navigation">
+    <button class="tab active" data-view="home"><span>⌂</span><b data-en="Home" data-kn="ಮುಖಪುಟ">Home</b></button>
+    <button class="tab" data-view="chapters"><span>▤</span><b data-en="Chapters" data-kn="ಅಧ್ಯಾಯಗಳು">Chapters</b></button>
+    <button class="tab" data-view="practice"><span>✎</span><b data-en="Practice" data-kn="ಅಭ್ಯಾಸ">Practice</b></button>
+    <button class="tab" data-view="papers"><span>▣</span><b data-en="Papers" data-kn="ಪ್ರಶ್ನೆಪತ್ರಿಕೆ">Papers</b></button>
+  </nav>
+  <section id="view-home" class="view">
+    <div class="section-head"><div><span class="eyebrow" data-en="YOUR STUDY SPACE" data-kn="ನಿಮ್ಮ ಅಧ್ಯಯನ ಸ್ಥಳ">YOUR STUDY SPACE</span><h2 data-en="What would you like to do?" data-kn="ನೀವು ಏನು ಮಾಡಲು ಬಯಸುತ್ತೀರಿ?">What would you like to do?</h2></div></div>
+    <div class="feature-grid">
+      <button class="feature-card blue" data-goto="chapters"><span class="feature-icon">▤</span><strong data-en="Learn chapters" data-kn="ಅಧ್ಯಾಯಗಳನ್ನು ಕಲಿಯಿರಿ">Learn chapters</strong><small data-en="Concepts, formulas & examples" data-kn="ಪರಿಕಲ್ಪನೆಗಳು, ಸೂತ್ರಗಳು ಮತ್ತು ಉದಾಹರಣೆಗಳು">Concepts, formulas & examples</small><span class="arrow">↗</span></button>
+      <button class="feature-card purple" data-goto="practice"><span class="feature-icon">✎</span><strong data-en="Quick quiz" data-kn="ತ್ವರಿತ ಪರೀಕ್ಷೆ">Quick quiz</strong><small data-en="Test your understanding" data-kn="ನಿಮ್ಮ ತಿಳುವಳಿಕೆಯನ್ನು ಪರೀಕ್ಷಿಸಿ">Test your understanding</small><span class="arrow">↗</span></button>
+      <button class="feature-card green" data-goto="papers"><span class="feature-icon">▣</span><strong data-en="Question papers" data-kn="ಪ್ರಶ್ನೆಪತ್ರಿಕೆಗಳು">Question papers</strong><small data-en="Practice exam-style questions" data-kn="ಪರೀಕ್ಷಾ ಮಾದರಿಯ ಪ್ರಶ್ನೆಗಳನ್ನು ಅಭ್ಯಾಸ ಮಾಡಿ">Practice exam-style questions</small><span class="arrow">↗</span></button>
+      <button class="feature-card orange" data-goto="formulas"><span class="feature-icon">√</span><strong data-en="Formula revision" data-kn="ಸೂತ್ರಗಳ ಪುನರವಲೋಕನ">Formula revision</strong><small data-en="Important formulas at a glance" data-kn="ಪ್ರಮುಖ ಸೂತ್ರಗಳನ್ನು ಒಂದೇ ಕಡೆ ನೋಡಿ">Important formulas at a glance</small><span class="arrow">↗</span></button>
+    </div>
+    <div class="section-head progress-head"><div><span class="eyebrow" data-en="KEEP GOING" data-kn="ಮುಂದುವರಿಯಿರಿ">KEEP GOING</span><h2 data-en="Your progress" data-kn="ನಿಮ್ಮ ಪ್ರಗತಿ">Your progress</h2></div><button id="resetProgress" class="text-button" data-en="Reset" data-kn="ಮರುಹೊಂದಿಸಿ">Reset</button></div>
+    <div class="progress-card"><div class="progress-line"><div><strong id="progressLabel">0 chapters completed</strong><small data-en="Progress is saved on this device" data-kn="ಪ್ರಗತಿಯನ್ನು ಈ ಸಾಧನದಲ್ಲಿ ಉಳಿಸಲಾಗುತ್ತದೆ">Progress is saved on this device</small></div><strong id="progressPercent">0%</strong></div><div class="progress-track"><span id="progressBar"></span></div><div class="progress-foot"><span>✓ <span id="quizBest">0</span> <span data-en="best quiz score" data-kn="ಅತ್ಯುತ್ತಮ ರಸಪ್ರಶ್ನೆ ಅಂಕ">best quiz score</span></span><span>◷ <span data-en="Works offline after first load" data-kn="ಮೊದಲ ಬಾರಿ ತೆರೆದ ನಂತರ ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ">Works offline after first load</span></span></div></div>
+    <div class="notice"><span>ⓘ</span><p data-en="Study content and sample questions are included. Verify official syllabus, answer keys and previous-year papers with KSEAB before relying on them for board exam preparation." data-kn="ಅಧ್ಯಯನ ವಿಷಯ ಮತ್ತು ಮಾದರಿ ಪ್ರಶ್ನೆಗಳು ಸೇರಿವೆ. ಬೋರ್ಡ್ ಪರೀಕ್ಷೆಗೆ ಬಳಸುವ ಮೊದಲು ಅಧಿಕೃತ ಪಠ್ಯಕ್ರಮ, ಉತ್ತರ ಕೀಗಳು ಮತ್ತು ಹಿಂದಿನ ವರ್ಷದ ಪ್ರಶ್ನೆಪತ್ರಿಕೆಗಳನ್ನು KSEAB ಮೂಲಕ ಪರಿಶೀಲಿಸಿ.">Study content and sample questions are included. Verify official syllabus, answer keys and previous-year papers with KSEAB before relying on them for board exam preparation.</p></div>
+  </section>
+  <section id="view-chapters" class="view" hidden><div class="section-head"><div><span class="eyebrow" data-en="SYLLABUS" data-kn="ಪಠ್ಯಕ್ರಮ">SYLLABUS</span><h2 data-en="All chapters" data-kn="ಎಲ್ಲಾ ಅಧ್ಯಾಯಗಳು">All chapters</h2><p class="muted" data-en="Select a chapter to see key ideas, formulas and worked examples." data-kn="ಮುಖ್ಯ ವಿಚಾರಗಳು, ಸೂತ್ರಗಳು ಮತ್ತು ಬಿಡಿಸಿದ ಉದಾಹರಣೆಗಳನ್ನು ನೋಡಲು ಅಧ್ಯಾಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ.">Select a chapter to see key ideas, formulas and worked examples.</p></div></div><label class="searchbox"><span>⌕</span><input id="chapterSearch" placeholder="Search chapters…" data-placeholder-en="Search chapters…" data-placeholder-kn="ಅಧ್ಯಾಯಗಳನ್ನು ಹುಡುಕಿ…"></label><div id="chapterList" class="chapter-list"></div></section>
+  <section id="view-detail" class="view" hidden><button id="backChapters" class="back-button">← <span data-en="All chapters" data-kn="ಎಲ್ಲಾ ಅಧ್ಯಾಯಗಳು">All chapters</span></button><div id="chapterDetail"></div></section>
+  <section id="view-practice" class="view" hidden><div class="section-head"><div><span class="eyebrow" data-en="CHECK YOUR KNOWLEDGE" data-kn="ನಿಮ್ಮ ಜ್ಞಾನವನ್ನು ಪರೀಕ್ಷಿಸಿ">CHECK YOUR KNOWLEDGE</span><h2 data-en="Maths practice" data-kn="ಗಣಿತ ಅಭ್ಯಾಸ">Maths practice</h2><p class="muted" data-en="Try a short quiz. Explanations appear after each answer." data-kn="ಚಿಕ್ಕ ಪರೀಕ್ಷೆ ಮಾಡಿ. ಪ್ರತಿ ಉತ್ತರದ ನಂತರ ವಿವರಣೆ ಕಾಣಿಸುತ್ತದೆ.">Try a short quiz. Explanations appear after each answer.</p></div></div><div class="quiz-settings"><label><span data-en="Topic" data-kn="ವಿಷಯ">Topic</span><select id="quizTopic"><option value="all">All topics</option></select></label><label><span data-en="Questions" data-kn="ಪ್ರಶ್ನೆಗಳು">Questions</span><select id="quizLength"><option value="5">5</option><option value="10">10</option><option value="15">15</option></select></label><button id="startQuiz" class="primary-btn" data-en="Start quiz →" data-kn="ಪರೀಕ್ಷೆ ಪ್ರಾರಂಭಿಸಿ →">Start quiz →</button></div><div id="quizArea"><div class="empty-state"><div>✎</div><strong data-en="Ready when you are" data-kn="ನೀವು ಸಿದ್ಧರಾದಾಗ ಪ್ರಾರಂಭಿಸಿ">Ready when you are</strong><p data-en="Choose a topic and start a quiz to practise." data-kn="ಅಭ್ಯಾಸಕ್ಕಾಗಿ ವಿಷಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಪರೀಕ್ಷೆ ಪ್ರಾರಂಭಿಸಿ.">Choose a topic and start a quiz to practise.</p></div></div></section>
+  <section id="view-papers" class="view" hidden><div class="section-head"><div><span class="eyebrow" data-en="EXAM PREPARATION" data-kn="ಪರೀಕ್ಷಾ ಸಿದ್ಧತೆ">EXAM PREPARATION</span><h2 data-en="Question papers" data-kn="ಪ್ರಶ್ನೆಪತ್ರಿಕೆಗಳು">Question papers</h2><p class="muted" data-en="Use sample sets now; add verified official PDFs when available." data-kn="ಈಗ ಮಾದರಿ ಪ್ರಶ್ನೆಗಳನ್ನು ಬಳಸಿ; ಅಧಿಕೃತ PDF ಲಭ್ಯವಾದಾಗ ಸೇರಿಸಿ.">Use sample sets now; add verified official PDFs when available.</p></div></div><div class="paper-list" id="paperList"></div><div class="notice"><span>ⓘ</span><p data-en="These are practice sets, not official previous-year KSEAB papers. For authentic past papers, use the KSEAB official website and check the exam year and medium." data-kn="ಇವು ಅಭ್ಯಾಸ ಪ್ರಶ್ನೆಪತ್ರಿಕೆಗಳು; ಅಧಿಕೃತ ಹಿಂದಿನ ವರ್ಷದ KSEAB ಪ್ರಶ್ನೆಪತ್ರಿಕೆಗಳಲ್ಲ. ನೈಜ ಹಳೆಯ ಪ್ರಶ್ನೆಪತ್ರಿಕೆಗಳಿಗಾಗಿ KSEAB ಅಧಿಕೃತ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ವರ್ಷ ಮತ್ತು ಮಾಧ್ಯಮ ಪರಿಶೀಲಿಸಿ.">These are practice sets, not official previous-year KSEAB papers. For authentic past papers, use the KSEAB official website and check the exam year and medium.</p></div><a class="external-link" href="https://kseab.karnataka.gov.in/" target="_blank" rel="noopener">KSEAB official website ↗</a></section>
+  <section id="view-formulas" class="view" hidden><div class="section-head"><div><span class="eyebrow" data-en="FAST REVISION" data-kn="ತ್ವರಿತ ಪುನರವಲೋಕನ">FAST REVISION</span><h2 data-en="Formula book" data-kn="ಸೂತ್ರ ಪುಸ್ತಕ">Formula book</h2></div></div><div id="formulaList" class="formula-list"></div></section>
+</main>
+<footer><div class="brandmark small">∑</div><p><strong>SSLC Maths</strong><br><span data-en="An independent learning aid for Karnataka SSLC students." data-kn="ಕರ್ನಾಟಕ ಎಸ್‌ಎಸ್‌ಎಲ್‌ಸಿ ವಿದ್ಯಾರ್ಥಿಗಳಿಗಾಗಿ ಸ್ವತಂತ್ರ ಕಲಿಕಾ ಸಹಾಯಕ.">An independent learning aid for Karnataka SSLC students.</span></p><small>Not affiliated with KSEAB.</small></footer>
+<script src="app.js"></script>
+</body></html>

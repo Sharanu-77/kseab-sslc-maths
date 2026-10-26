@@ -1,0 +1,8 @@
+{
+  "appId": "in.kseab.sslcmath",
+  "appName": "SSLC Maths",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

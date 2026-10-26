@@ -1,0 +1,212 @@
+[
+  {
+    "topic": 2,
+    "q_en": "What is the sum of zeros of x² − 7x + 10?",
+    "q_kn": "x² − 7x + 10 ರ ಶೂನ್ಯಗಳ ಮೊತ್ತ ಎಷ್ಟು?",
+    "options": [
+      "10",
+      "7",
+      "−7",
+      "−10"
+    ],
+    "answer": 1,
+    "why_en": "For ax²+bx+c, the sum is −b/a. Here it is −(−7)/1 = 7.",
+    "why_kn": "ax²+bx+c ಗೆ ಶೂನ್ಯಗಳ ಮೊತ್ತ −b/a. ಇಲ್ಲಿ −(−7)/1 = 7."
+  },
+  {
+    "topic": 4,
+    "q_en": "What is the discriminant of x² − 4x + 4 = 0?",
+    "q_kn": "x² − 4x + 4 = 0 ರ ವಿವೇಚಕ ಎಷ್ಟು?",
+    "options": [
+      "0",
+      "4",
+      "8",
+      "16"
+    ],
+    "answer": 0,
+    "why_en": "D = b² − 4ac = 16 − 16 = 0.",
+    "why_kn": "D = b² − 4ac = 16 − 16 = 0."
+  },
+  {
+    "topic": 5,
+    "q_en": "Find the common difference of 5, 9, 13, 17, …",
+    "q_kn": "5, 9, 13, 17, … ಶ್ರೇಢಿಯ ಸಾಮಾನ್ಯ ವ್ಯತ್ಯಾಸ ಎಷ್ಟು?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 2,
+    "why_en": "Subtract consecutive terms: 9 − 5 = 4.",
+    "why_kn": "ಸತತ ಪದಗಳನ್ನು ಕಳೆಯಿರಿ: 9 − 5 = 4."
+  },
+  {
+    "topic": 7,
+    "q_en": "Find the distance between (0,0) and (3,4).",
+    "q_kn": "(0,0) ಮತ್ತು (3,4) ನಡುವಿನ ದೂರ ಎಷ್ಟು?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 1,
+    "why_en": "Distance = √(3² + 4²) = √25 = 5.",
+    "why_kn": "ದೂರ = √(3² + 4²) = √25 = 5."
+  },
+  {
+    "topic": 8,
+    "q_en": "What is sin 30°?",
+    "q_kn": "sin 30° ಎಷ್ಟು?",
+    "options": [
+      "0",
+      "1/2",
+      "√3/2",
+      "1"
+    ],
+    "answer": 1,
+    "why_en": "The standard trigonometric value is sin 30° = 1/2.",
+    "why_kn": "ಪ್ರಮಾಣಿತ ತ್ರಿಕೋನಮಿತಿಯ ಮೌಲ್ಯ sin 30° = 1/2."
+  },
+  {
+    "topic": 10,
+    "q_en": "A tangent is perpendicular to which line at the point of contact?",
+    "q_kn": "ಸ್ಪರ್ಶ ಬಿಂದುವಿನಲ್ಲಿ ಸ್ಪರ್ಶಕವು ಯಾವ ರೇಖೆಗೆ ಲಂಬವಾಗಿರುತ್ತದೆ?",
+    "options": [
+      "Diameter only",
+      "Radius",
+      "Chord only",
+      "Another tangent"
+    ],
+    "answer": 1,
+    "why_en": "The radius drawn to the point of contact is perpendicular to the tangent.",
+    "why_kn": "ಸ್ಪರ್ಶ ಬಿಂದುವಿಗೆ ಎಳೆದ ತ್ರಿಜ್ಯವು ಸ್ಪರ್ಶಕಕ್ಕೆ ಲಂಬವಾಗಿರುತ್ತದೆ."
+  },
+  {
+    "topic": 11,
+    "q_en": "What is the circumference of a circle with radius r?",
+    "q_kn": "ತ್ರಿಜ್ಯ r ಇರುವ ವೃತ್ತದ ಸುತ್ತಳತೆ ಎಷ್ಟು?",
+    "options": [
+      "πr²",
+      "2πr",
+      "πd²",
+      "r²"
+    ],
+    "answer": 1,
+    "why_en": "Circumference = 2πr = πd.",
+    "why_kn": "ಸುತ್ತಳತೆ = 2πr = πd."
+  },
+  {
+    "topic": 12,
+    "q_en": "What is the volume of a cube with side 3 cm?",
+    "q_kn": "3 cm ಬಾಹು ಇರುವ ಘನದ ಘನಫಲ ಎಷ್ಟು?",
+    "options": [
+      "9 cm³",
+      "18 cm³",
+      "27 cm³",
+      "36 cm³"
+    ],
+    "answer": 2,
+    "why_en": "Volume of cube = side³ = 3³ = 27 cm³.",
+    "why_kn": "ಘನದ ಘನಫಲ = ಬಾಹು³ = 3³ = 27 cm³."
+  },
+  {
+    "topic": 13,
+    "q_en": "Find the mean of 3, 5 and 7.",
+    "q_kn": "3, 5 ಮತ್ತು 7 ರ ಸರಾಸರಿ ಎಷ್ಟು?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 2,
+    "why_en": "Mean = (3+5+7)/3 = 5.",
+    "why_kn": "ಸರಾಸರಿ = (3+5+7)/3 = 5."
+  },
+  {
+    "topic": 14,
+    "q_en": "A fair coin is tossed once. What is P(heads)?",
+    "q_kn": "ಒಂದು ನ್ಯಾಯಸಮ್ಮತ ನಾಣ್ಯವನ್ನು ಒಮ್ಮೆ ಎಸೆದಾಗ P(ತಲೆ) ಎಷ್ಟು?",
+    "options": [
+      "0",
+      "1/4",
+      "1/2",
+      "1"
+    ],
+    "answer": 2,
+    "why_en": "There are two equally likely outcomes and one is heads, so 1/2.",
+    "why_kn": "ಎರಡು ಸಮಸಂಭವನೀಯ ಫಲಿತಾಂಶಗಳಲ್ಲಿ ಒಂದು ತಲೆ; ಆದ್ದರಿಂದ 1/2."
+  },
+  {
+    "topic": 1,
+    "q_en": "Find the HCF of 18 and 24.",
+    "q_kn": "18 ಮತ್ತು 24 ರ ಮ.ಸಾ.ಅ ಎಷ್ಟು?",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "answer": 1,
+    "why_en": "18 = 2×3² and 24 = 2³×3; common prime factors give HCF 6.",
+    "why_kn": "18 = 2×3² ಮತ್ತು 24 = 2³×3; ಸಾಮಾನ್ಯ ಅವಿಭಾಜ್ಯ ಅಪವರ್ತನಗಳಿಂದ ಮ.ಸಾ.ಅ 6."
+  },
+  {
+    "topic": 3,
+    "q_en": "Solve x + y = 9 and x − y = 3. What is x?",
+    "q_kn": "x + y = 9 ಮತ್ತು x − y = 3 ಬಿಡಿಸಿದಾಗ x ಎಷ್ಟು?",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "9"
+    ],
+    "answer": 2,
+    "why_en": "Add the equations: 2x = 12, so x = 6.",
+    "why_kn": "ಸಮೀಕರಣಗಳನ್ನು ಕೂಡಿಸಿ: 2x = 12, ಆದ್ದರಿಂದ x = 6."
+  },
+  {
+    "topic": 6,
+    "q_en": "In a right triangle, the legs are 5 and 12. Find the hypotenuse.",
+    "q_kn": "ಲಂಬಕೋನ ತ್ರಿಭುಜದ ಲಂಬ ಬಾಹುಗಳು 5 ಮತ್ತು 12. ಕರ್ಣ ಎಷ್ಟು?",
+    "options": [
+      "13",
+      "15",
+      "17",
+      "10"
+    ],
+    "answer": 0,
+    "why_en": "By Pythagoras, c = √(25+144) = √169 = 13.",
+    "why_kn": "ಪೈಥಾಗರಸ್ ಪ್ರಮೇಯದಿಂದ c = √(25+144) = √169 = 13."
+  },
+  {
+    "topic": 9,
+    "q_en": "If tan θ = 1 and θ is acute, what is θ?",
+    "q_kn": "tan θ = 1 ಮತ್ತು θ ತೀಕ್ಷ್ಣ ಕೋನವಾದರೆ θ ಎಷ್ಟು?",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "answer": 1,
+    "why_en": "tan 45° = 1.",
+    "why_kn": "tan 45° = 1."
+  },
+  {
+    "topic": 15,
+    "q_en": "What is the first step when making a geometric construction?",
+    "q_kn": "ಜ್ಯಾಮಿತೀಯ ರಚನೆ ಮಾಡುವಾಗ ಮೊದಲಿಗೆ ಏನು ಮಾಡಬೇಕು?",
+    "options": [
+      "Erase all lines",
+      "Read the given conditions and draw a neat sketch",
+      "Guess the answer",
+      "Measure without a diagram"
+    ],
+    "answer": 1,
+    "why_en": "Understand the given data and draw a labelled rough sketch before construction.",
+    "why_kn": "ರಚನೆಗಿಂತ ಮೊದಲು ನೀಡಿರುವ ಮಾಹಿತಿಯನ್ನು ಅರ್ಥಮಾಡಿಕೊಂಡು ಹೆಸರಿರುವ ಕರಡು ಚಿತ್ರ ಬಿಡಿಸಿ."
+  }
+]

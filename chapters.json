@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "en": "Real Numbers",
+    "kn": "ವಾಸ್ತವ ಸಂಖ್ಯೆಗಳು",
+    "desc_en": "Prime factorisation, HCF and LCM",
+    "desc_kn": "ಅವಿಭಾಜ್ಯ ಅಪವರ್ತನ, ಮ.ಸಾ.ಅ ಮತ್ತು ಲ.ಸಾ.ಅ",
+    "notes_en": "For positive integers a and b, use the Euclidean algorithm to find HCF. A rational number has a terminating decimal expansion when its reduced denominator has only 2 and/or 5 as prime factors.",
+    "notes_kn": "ಧನ ಪೂರ್ಣಾಂಕ a ಮತ್ತು b ಗಳ ಮ.ಸಾ.ಅ ಕಂಡುಹಿಡಿಯಲು ಯೂಕ್ಲಿಡ್ ವಿಧಾನ ಬಳಸಿ. ಸರಳ ರೂಪದ ಹರದ ಅವಿಭಾಜ್ಯ ಅಪವರ್ತನಗಳಲ್ಲಿ 2 ಮತ್ತು/ಅಥವಾ 5 ಮಾತ್ರ ಇದ್ದರೆ ಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆಯ ದಶಮಾಂಶ ವಿಸ್ತರಣೆ ಅಂತ್ಯಗೊಳ್ಳುತ್ತದೆ.",
+    "formulas": [
+      "HCF(a,b) × LCM(a,b) = a × b",
+      "If p is prime and p divides a², then p divides a"
+    ],
+    "example": {
+      "q_en": "Find HCF of 26 and 91.",
+      "a_en": "91 = 26 × 3 + 13; 26 = 13 × 2 + 0. HCF = 13.",
+      "q_kn": "26 ಮತ್ತು 91 ರ ಮ.ಸಾ.ಅ ಕಂಡುಹಿಡಿಯಿರಿ.",
+      "a_kn": "91 = 26 × 3 + 13; 26 = 13 × 2 + 0. ಮ.ಸಾ.ಅ = 13."
+    }
+  },
+  {
+    "id": 2,
+    "en": "Polynomials",
+    "kn": "ಬಹುಪದೋಕ್ತಿಗಳು",
+    "desc_en": "Zeros, factors and relationships between zeros and coefficients",
+    "desc_kn": "ಶೂನ್ಯಗಳು, ಅಪವರ್ತನಗಳು ಮತ್ತು ಶೂನ್ಯಗಳು-ಸಹಗುಣಕಗಳ ಸಂಬಂಧ",
+    "notes_en": "For ax² + bx + c, if zeros are α and β, then α + β = −b/a and αβ = c/a.",
+    "notes_kn": "ax² + bx + c ನ ಶೂನ್ಯಗಳು α ಮತ್ತು β ಆಗಿದ್ದರೆ α + β = −b/a ಮತ್ತು αβ = c/a.",
+    "formulas": [
+      "For ax² + bx + c: α + β = −b/a",
+      "αβ = c/a"
+    ],
+    "example": {
+      "q_en": "Find the sum of zeros of x² − 5x + 6.",
+      "a_en": "Sum = −(−5)/1 = 5.",
+      "q_kn": "x² − 5x + 6 ರ ಶೂನ್ಯಗಳ ಮೊತ್ತ ಕಂಡುಹಿಡಿಯಿರಿ.",
+      "a_kn": "ಮೊತ್ತ = −(−5)/1 = 5."
+    }
+  },
+  {
+    "id": 3,
+    "en": "Pair of Linear Equations in Two Variables",
+    "kn": "ಎರಡು ಚರಗಳ ರೇಖಾತ್ಮಕ ಸಮೀಕರಣಗಳ ಜೋಡಿ",
+    "desc_en": "Solve simultaneous equations graphically or algebraically",
+    "desc_kn": "ಸಮೀಕರಣಗಳನ್ನು ನಕ್ಷೆ ಅಥವಾ ಬೀಜಗಣಿತದಿಂದ ಬಿಡಿಸಿ",
+    "notes_en": "For a₁x+b₁y+c₁=0 and a₂x+b₂y+c₂=0, compare coefficient ratios to determine whether there is one solution, no solution, or infinitely many solutions.",
+    "notes_kn": "a₁x+b₁y+c₁=0 ಮತ್ತು a₂x+b₂y+c₂=0 ಸಮೀಕರಣಗಳ ಸಹಗುಣಕಗಳ ಅನುಪಾತಗಳಿಂದ ಪರಿಹಾರಗಳ ಸಂಖ್ಯೆಯನ್ನು ನಿರ್ಧರಿಸಬಹುದು.",
+    "formulas": [
+      "Unique solution: a₁/a₂ ≠ b₁/b₂",
+      "No solution: a₁/a₂ = b₁/b₂ ≠ c₁/c₂"
+    ],
+    "example": {
+      "q_en": "Solve x + y = 7 and x − y = 1.",
+      "a_en": "Add equations: 2x = 8, so x = 4. Then y = 3.",
+      "q_kn": "x + y = 7 ಮತ್ತು x − y = 1 ಬಿಡಿಸಿ.",
+      "a_kn": "ಸಮೀಕರಣಗಳನ್ನು ಕೂಡಿಸಿದರೆ 2x = 8, ಆದ್ದರಿಂದ x = 4. ನಂತರ y = 3."
+    }
+  },
+  {
+    "id": 4,
+    "en": "Quadratic Equations",
+    "kn": "ವರ್ಗ ಸಮೀಕರಣಗಳು",
+    "desc_en": "Solve ax² + bx + c = 0",
+    "desc_kn": "ax² + bx + c = 0 ಅನ್ನು ಬಿಡಿಸುವುದು",
+    "notes_en": "A quadratic equation has the form ax²+bx+c=0, with a ≠ 0. The discriminant determines the nature of roots.",
+    "notes_kn": "ವರ್ಗ ಸಮೀಕರಣದ ರೂಪ ax²+bx+c=0, ಇಲ್ಲಿ a ≠ 0. ವಿವೇಚಕವು ಮೂಲಗಳ ಸ್ವರೂಪವನ್ನು ತಿಳಿಸುತ್ತದೆ.",
+    "formulas": [
+      "x = (−b ± √(b²−4ac))/(2a)",
+      "Discriminant D = b² − 4ac"
+    ],
+    "example": {
+      "q_en": "Solve x² − 5x + 6 = 0.",
+      "a_en": "Factor: (x − 2)(x − 3) = 0. Hence x = 2 or x = 3.",
+      "q_kn": "x² − 5x + 6 = 0 ಬಿಡಿಸಿ.",
+      "a_kn": "ಅಪವರ್ತನ: (x − 2)(x − 3) = 0. ಆದ್ದರಿಂದ x = 2 ಅಥವಾ x = 3."
+    }
+  },
+  {
+    "id": 5,
+    "en": "Arithmetic Progressions",
+    "kn": "ಸಮಾನಾಂತರ ಶ್ರೇಢಿಗಳು",
+    "desc_en": "Find the nth term and sum of an arithmetic progression",
+    "desc_kn": "ಸಮಾನಾಂತರ ಶ್ರೇಢಿಯ nನೇ ಪದ ಮತ್ತು ಮೊತ್ತ",
+    "notes_en": "An arithmetic progression (AP) has a constant difference between consecutive terms.",
+    "notes_kn": "ಸಮಾನಾಂತರ ಶ್ರೇಢಿಯಲ್ಲಿ ಸತತ ಪದಗಳ ನಡುವಿನ ವ್ಯತ್ಯಾಸ ಸ್ಥಿರವಾಗಿರುತ್ತದೆ.",
+    "formulas": [
+      "aₙ = a + (n−1)d",
+      "Sₙ = n/2 [2a + (n−1)d]"
+    ],
+    "example": {
+      "q_en": "Find the 10th term of 3, 7, 11, …",
+      "a_en": "a = 3, d = 4. a₁₀ = 3 + 9×4 = 39.",
+      "q_kn": "3, 7, 11, … ಶ್ರೇಢಿಯ 10ನೇ ಪದ ಕಂಡುಹಿಡಿಯಿರಿ.",
+      "a_kn": "a = 3, d = 4. a₁₀ = 3 + 9×4 = 39."
+    }
+  },
+  {
+    "id": 6,
+    "en": "Triangles",
+    "kn": "ತ್ರಿಭುಜಗಳು",
+    "desc_en": "Similarity, proportional sides and Pythagoras theorem",
+    "desc_kn": "ಸಮರೂಪತೆ, ಅನುಪಾತದ ಬಾಹುಗಳು ಮತ್ತು ಪೈಥಾಗರಸ್ ಪ್ರಮೇಯ",
+    "notes_en": "Similar triangles have equal corresponding angles and proportional corresponding sides.",
+    "notes_kn": "ಸಮರೂಪ ತ್ರಿಭುಜಗಳಲ್ಲಿ ಅನುರೂಪ ಕೋನಗಳು ಸಮ ಮತ್ತು ಅನುರೂಪ ಬಾಹುಗಳು ಅನುಪಾತದಲ್ಲಿರುತ್ತವೆ.",
+    "formulas": [
+      "For similar triangles: corresponding sides are proportional",
+      "c² = a² + b² (right triangle)"
+    ],
+    "example": {
+      "q_en": "A right triangle has legs 6 cm and 8 cm. Find its hypotenuse.",
+      "a_en": "c = √(6² + 8²) = √100 = 10 cm.",
+      "q_kn": "ಲಂಬಕೋನ ತ್ರಿಭುಜದ ಲಂಬ ಬಾಹುಗಳು 6 cm ಮತ್ತು 8 cm. ಕರ್ಣ ಕಂಡುಹಿಡಿಯಿರಿ.",
+      "a_kn": "c = √(6² + 8²) = √100 = 10 cm."
+    }
+  },
+  {
+    "id": 7,
+    "en": "Coordinate Geometry",
+    "kn": "ನಿರ್ದೇಶಾಂಕ ರೇಖಾಗಣಿತ",
+    "desc_en": "Distance, midpoint and section formula",
+    "desc_kn": "ದೂರ, ಮಧ್ಯಬಿಂದು ಮತ್ತು ವಿಭಜನಾ ಸೂತ್ರ",
+    "notes_en": "Coordinates locate points on a plane. Use the distance formula to find the straight-line distance between two points.",
+    "notes_kn": "ನಿರ್ದೇಶಾಂಕಗಳು ಸಮತಲದಲ್ಲಿನ ಬಿಂದುಗಳ ಸ್ಥಾನವನ್ನು ಸೂಚಿಸುತ್ತವೆ. ಎರಡು ಬಿಂದುಗಳ ನಡುವಿನ ದೂರವನ್ನು ದೂರ ಸೂತ್ರದಿಂದ ಕಂಡುಹಿಡಿಯಿರಿ.",
+    "formulas": [
+      "d = √[(x₂−x₁)² + (y₂−y₁)²]",
+      "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2)"
+    ],
+    "example": {
+      "q_en": "Find the distance between (1,2) and (4,6).",
+      "a_en": "d = √[(4−1)²+(6−2)²] = √25 = 5 units.",
+      "q_kn": "(1,2) ಮತ್ತು (4,6) ನಡುವಿನ ದೂರ ಕಂಡುಹಿಡಿಯಿರಿ.",
+      "a_kn": "d = √[(4−1)²+(6−2)²] = √25 = 5 ಏಕಮಾನಗಳು."
+    }
+  },
+  {
+    "id": 8,
+    "en": "Introduction to Trigonometry",
+    "kn": "ತ್ರಿಕೋನಮಿತಿಗೆ ಪರಿಚಯ",
+    "desc_en": "Trigonometric ratios and identities",
+    "desc_kn": "ತ್ರಿಕೋನಮಿತಿಯ ಅನುಪಾತಗಳು ಮತ್ತು ಸಮೀಕರಣಗಳು",
+    "notes_en": "For an acute angle in a right triangle, ratios relate opposite, adjacent and hypotenuse sides.",
+    "notes_kn": "ಲಂಬಕೋನ ತ್ರಿಭುಜದ ತೀಕ್ಷ್ಣ ಕೋನಕ್ಕೆ ಎದುರು, ಪಕ್ಕದ ಮತ್ತು ಕರ್ಣ ಬಾಹುಗಳ ಅನುಪಾತಗಳನ್ನು ಬಳಸಿ.",
+    "formulas": [
+      "sin θ = opposite/hypotenuse",
+      "cos θ = adjacent/hypotenuse",
+      "tan θ = opposite/adjacent",
+      "sin² θ + cos² θ = 1"
+    ],
+    "example": {
+      "q_en": "If opposite = 3 and hypotenuse = 5, find sin θ.",
+      "a_en": "sin θ = 3/5.",
+      "q_kn": "ಎದುರು ಬಾಹು 3 ಮತ್ತು ಕರ್ಣ 5 ಆಗಿದ್ದರೆ sin θ ಕಂಡುಹಿಡಿಯಿರಿ.",
+      "a_kn": "sin θ = 3/5."
+    }
+  },
+  {
+    "id": 9,
+    "en": "Some Applications of Trigonometry",
+    "kn": "ತ್ರಿಕೋನಮಿತಿಯ ಕೆಲವು ಅನ್ವಯಗಳು",
+    "desc_en": "Heights and distances using angles of elevation and depression",
+    "desc_kn": "ಉನ್ನತ ಮತ್ತು ಅವನತ ಕೋನಗಳಿಂದ ಎತ್ತರ ಮತ್ತು ದೂರ",
+    "notes_en": "Draw a right triangle, identify the angle and sides, then select an appropriate trigonometric ratio.",
+    "notes_kn": "ಲಂಬಕೋನ ತ್ರಿಭುಜ ಬಿಡಿಸಿ, ಕೋನ ಮತ್ತು ಬಾಹುಗಳನ್ನು ಗುರುತಿಸಿ, ಸೂಕ್ತ ತ್ರಿಕೋನಮಿತಿಯ ಅನುಪಾತ ಆಯ್ಕೆಮಾಡಿ.",
+    "formulas": [
+      "tan θ = height / horizontal distance"
+    ],
+    "example": {
+      "q_en": "A point is 10 m from a tower; angle of elevation is 45°. Find the height (idealised).",
+      "a_en": "tan 45° = h/10, so h = 10 m.",
+      "q_kn": "ಗೋಪುರದಿಂದ 10 m ದೂರದಲ್ಲಿ ಉನ್ನತ ಕೋನ 45°. ಎತ್ತರ ಕಂಡುಹಿಡಿಯಿರಿ.",
+      "a_kn": "tan 45° = h/10, ಆದ್ದರಿಂದ h = 10 m."
+    }
+  },
+  {
+    "id": 10,
+    "en": "Circles",
+    "kn": "ವೃತ್ತಗಳು",
+    "desc_en": "Tangents and their properties",
+    "desc_kn": "ಸ್ಪರ್ಶಕಗಳು ಮತ್ತು ಅವುಗಳ ಗುಣಲಕ್ಷಣಗಳು",
+    "notes_en": "A tangent touches a circle at one point. The radius to the point of contact is perpendicular to the tangent.",
+    "notes_kn": "ಸ್ಪರ್ಶಕವು ವೃತ್ತವನ್ನು ಒಂದೇ ಬಿಂದುವಿನಲ್ಲಿ ಸ್ಪರ್ಶಿಸುತ್ತದೆ. ಸ್ಪರ್ಶ ಬಿಂದುವಿನ ತ್ರಿಜ್ಯವು ಸ್ಪರ್ಶಕಕ್ಕೆ ಲಂಬವಾಗಿರುತ್ತದೆ.",
+    "formulas": [
+      "Radius ⟂ tangent at point of contact",
+      "Tangents from the same external point are equal"
+    ],
+    "example": {
+      "q_en": "Two tangents from an external point are PA and PB. If PA = 7 cm, find PB.",
+      "a_en": "Tangents from the same external point are equal, so PB = 7 cm.",
+      "q_kn": "ಹೊರಗಿನ ಬಿಂದುವಿನಿಂದ PA ಮತ್ತು PB ಸ್ಪರ್ಶಕಗಳು. PA = 7 cm ಆಗಿದ್ದರೆ PB ಕಂಡುಹಿಡಿಯಿರಿ.",
+      "a_kn": "ಒಂದೇ ಹೊರಗಿನ ಬಿಂದುವಿನಿಂದ ಎಳೆದ ಸ್ಪರ್ಶಕಗಳು ಸಮ; ಆದ್ದರಿಂದ PB = 7 cm."
+    }
+  },
+  {
+    "id": 11,
+    "en": "Areas Related to Circles",
+    "kn": "ವೃತ್ತಗಳಿಗೆ ಸಂಬಂಧಿಸಿದ ವಿಸ್ತೀರ್ಣಗಳು",
+    "desc_en": "Circumference, area and sector area",
+    "desc_kn": "ಸುತ್ತಳತೆ, ವಿಸ್ತೀರ್ಣ ಮತ್ತು ವೃತ್ತಖಂಡದ ವಿಸ್ತೀರ್ಣ",
+    "notes_en": "Use π ≈ 22/7 or 3.14159 as appropriate to the question.",
+    "notes_kn": "ಪ್ರಶ್ನೆಗೆ ತಕ್ಕಂತೆ π ≈ 22/7 ಅಥವಾ 3.14159 ಬಳಸಿ.",
+    "formulas": [
+      "Circumference = 2πr",
+      "Area = πr²",
+      "Sector area = (θ/360°)πr²"
+    ],
+    "example": {
+      "q_en": "Find the area of a circle of radius 7 cm using π = 22/7.",
+      "a_en": "Area = (22/7) × 7² = 154 cm².",
+      "q_kn": "ತ್ರಿಜ್ಯ 7 cm ಇರುವ ವೃತ್ತದ ವಿಸ್ತೀರ್ಣ ಕಂಡುಹಿಡಿಯಿರಿ (π = 22/7).",
+      "a_kn": "ವಿಸ್ತೀರ್ಣ = (22/7) × 7² = 154 cm²."
+    }
+  },
+  {
+    "id": 12,
+    "en": "Surface Areas and Volumes",
+    "kn": "ಮೇಲ್ಮೈ ವಿಸ್ತೀರ್ಣಗಳು ಮತ್ತು ಘನಫಲಗಳು",
+    "desc_en": "Surface area and volume of common solids",
+    "desc_kn": "ಸಾಮಾನ್ಯ ಘನಾಕೃತಿಗಳ ಮೇಲ್ಮೈ ವಿಸ್ತೀರ್ಣ ಮತ್ತು ಘನಫಲ",
+    "notes_en": "Identify the solid and substitute the radius, height or side into the correct formula. Keep units consistent.",
+    "notes_kn": "ಘನಾಕೃತಿಯನ್ನು ಗುರುತಿಸಿ, ತ್ರಿಜ್ಯ, ಎತ್ತರ ಅಥವಾ ಬಾಹುವನ್ನು ಸೂತ್ರದಲ್ಲಿ ಹಾಕಿ. ಏಕಮಾನಗಳನ್ನು ಒಂದೇ ರೀತಿಯಲ್ಲಿ ಬಳಸಿ.",
+    "formulas": [
+      "Cylinder: V = πr²h",
+      "Cone: V = (1/3)πr²h",
+      "Sphere: V = (4/3)πr³",
+      "Cuboid: V = lbh"
+    ],
+    "example": {
+      "q_en": "Find the volume of a cylinder with r = 2 cm and h = 5 cm.",
+      "a_en": "V = π × 2² × 5 = 20π cm³.",
+      "q_kn": "r = 2 cm ಮತ್ತು h = 5 cm ಇರುವ ಸಿಲಿಂಡರ್‌ನ ಘನಫಲ ಕಂಡುಹಿಡಿಯಿರಿ.",
+      "a_kn": "V = π × 2² × 5 = 20π cm³."
+    }
+  },
+  {
+    "id": 13,
+    "en": "Statistics",
+    "kn": "ಸಂಖ್ಯಾಶಾಸ್ತ್ರ",
+    "desc_en": "Mean, median and mode of grouped data",
+    "desc_kn": "ಗುಂಪುಗೊಳಿಸಿದ ದತ್ತಾಂಶದ ಸರಾಸರಿ, ಮಧ್ಯಕ ಮತ್ತು ಬಹುಲಕ",
+    "notes_en": "For grouped data, use class marks and frequencies carefully; cumulative frequency helps find the median class.",
+    "notes_kn": "ಗುಂಪುಗೊಳಿಸಿದ ದತ್ತಾಂಶಕ್ಕೆ ವರ್ಗಮಧ್ಯಬಿಂದು ಮತ್ತು ಆವೃತ್ತಿಗಳನ್ನು ಬಳಸಿ; ಸಂಚಿತ ಆವೃತ್ತಿ ಮಧ್ಯಕ ವರ್ಗ ಕಂಡುಹಿಡಿಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+    "formulas": [
+      "Mean = Σfᵢxᵢ / Σfᵢ",
+      "Median = l + [(N/2 − cf)/f]h"
+    ],
+    "example": {
+      "q_en": "Data values 2, 4, 6 have mean?",
+      "a_en": "Mean = (2 + 4 + 6)/3 = 4.",
+      "q_kn": "2, 4, 6 ದತ್ತಾಂಶಗಳ ಸರಾಸರಿ ಎಷ್ಟು?",
+      "a_kn": "ಸರಾಸರಿ = (2 + 4 + 6)/3 = 4."
+    }
+  },
+  {
+    "id": 14,
+    "en": "Probability",
+    "kn": "ಸಂಭಾವ್ಯತೆ",
+    "desc_en": "Probability of an event",
+    "desc_kn": "ಒಂದು ಘಟನೆಯ ಸಂಭವನೀಯತೆ",
+    "notes_en": "For equally likely outcomes, probability is the number of favourable outcomes divided by the total number of outcomes.",
+    "notes_kn": "ಸಮಸಂಭವನೀಯ ಫಲಿತಾಂಶಗಳಲ್ಲಿ ಸಂಭವನೀಯತೆ = ಅನುಕೂಲಕರ ಫಲಿತಾಂಶಗಳ ಸಂಖ್ಯೆ / ಒಟ್ಟು ಫಲಿತಾಂಶಗಳ ಸಂಖ್ಯೆ.",
+    "formulas": [
+      "P(E) = favourable outcomes / total outcomes",
+      "0 ≤ P(E) ≤ 1"
+    ],
+    "example": {
+      "q_en": "A fair die is rolled. What is the probability of getting 4?",
+      "a_en": "There is 1 favourable outcome out of 6, so P(4) = 1/6.",
+      "q_kn": "ಒಂದು ನ್ಯಾಯಸಮ್ಮತ ದಾಳ ಉರುಳಿಸಿದಾಗ 4 ಬರುವ ಸಂಭವನೀಯತೆ ಎಷ್ಟು?",
+      "a_kn": "6 ಫಲಿತಾಂಶಗಳಲ್ಲಿ 1 ಅನುಕೂಲಕರ ಫಲಿತಾಂಶ; P(4) = 1/6."
+    }
+  },
+  {
+    "id": 15,
+    "en": "Constructions",
+    "kn": "ರಚನೆಗಳು",
+    "desc_en": "Geometric constructions with ruler and compass",
+    "desc_kn": "ಅಳತೆಪಟ್ಟಿ ಮತ್ತು ಕಂಪಾಸ್ ಬಳಸಿ ಜ್ಯಾಮಿತೀಯ ರಚನೆಗಳು",
+    "notes_en": "Follow construction steps in order, keep compass width fixed where required, and label the construction clearly.",
+    "notes_kn": "ರಚನೆಯ ಹಂತಗಳನ್ನು ಕ್ರಮವಾಗಿ ಅನುಸರಿಸಿ, ಅಗತ್ಯವಿದ್ದಲ್ಲಿ ಕಂಪಾಸ್ ಅಗಲ ಸ್ಥಿರವಾಗಿಡಿ ಮತ್ತು ಚಿತ್ರಕ್ಕೆ ಸ್ಪಷ್ಟವಾಗಿ ಹೆಸರು ನೀಡಿ.",
+    "formulas": [
+      "Draw accurate construction lines and mark points clearly"
+    ],
+    "example": {
+      "q_en": "What should you do after completing a geometric construction?",
+      "a_en": "Check the required conditions and label the constructed points and lines.",
+      "q_kn": "ಜ್ಯಾಮಿತೀಯ ರಚನೆ ಪೂರ್ಣಗೊಳಿಸಿದ ನಂತರ ಏನು ಮಾಡಬೇಕು?",
+      "a_kn": "ಅಗತ್ಯ ಷರತ್ತುಗಳನ್ನು ಪರಿಶೀಲಿಸಿ, ರಚಿಸಿದ ಬಿಂದುಗಳು ಮತ್ತು ರೇಖೆಗಳಿಗೆ ಹೆಸರು ನೀಡಿ."
+    }
+  }
+]

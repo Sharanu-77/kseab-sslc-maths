@@ -1,0 +1,53 @@
+[
+  {
+    "title_en": "Algebra",
+    "title_kn": "ಬೀಜಗಣಿತ",
+    "items": [
+      "(a+b)² = a² + 2ab + b²",
+      "(a−b)² = a² − 2ab + b²",
+      "a² − b² = (a−b)(a+b)",
+      "Quadratic: x = (−b ± √(b²−4ac))/(2a)",
+      "AP: aₙ = a + (n−1)d",
+      "AP sum: Sₙ = n/2 [2a+(n−1)d]"
+    ]
+  },
+  {
+    "title_en": "Coordinate geometry",
+    "title_kn": "ನಿರ್ದೇಶಾಂಕ ರೇಖಾಗಣಿತ",
+    "items": [
+      "Distance: √[(x₂−x₁)²+(y₂−y₁)²]",
+      "Midpoint: ((x₁+x₂)/2, (y₁+y₂)/2)"
+    ]
+  },
+  {
+    "title_en": "Trigonometry",
+    "title_kn": "ತ್ರಿಕೋನಮಿತಿ",
+    "items": [
+      "sin θ = opposite / hypotenuse",
+      "cos θ = adjacent / hypotenuse",
+      "tan θ = opposite / adjacent",
+      "sin² θ + cos² θ = 1",
+      "1 + tan² θ = sec² θ"
+    ]
+  },
+  {
+    "title_en": "Circles & mensuration",
+    "title_kn": "ವೃತ್ತಗಳು ಮತ್ತು ಮಾಪನ",
+    "items": [
+      "Circle area = πr²",
+      "Circumference = 2πr",
+      "Cylinder volume = πr²h",
+      "Cone volume = (1/3)πr²h",
+      "Sphere volume = (4/3)πr³"
+    ]
+  },
+  {
+    "title_en": "Statistics & probability",
+    "title_kn": "ಸಂಖ್ಯಾಶಾಸ್ತ್ರ ಮತ್ತು ಸಂಭವನೀಯತೆ",
+    "items": [
+      "Mean = Σfx / Σf",
+      "P(E) = favourable outcomes / total outcomes",
+      "0 ≤ P(E) ≤ 1"
+    ]
+  }
+]
