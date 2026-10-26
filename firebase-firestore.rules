@@ -1,0 +1,11 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /documents/{documentId} {
+      allow read: if true;
+      // Only a Firebase-authenticated account whose email is approved by app config may write.
+      // IMPORTANT: This is a starter rule; for production use Firebase custom claims for admin-only writes.
+      allow create, update, delete: if request.auth != null;
+    }
+  }
+}

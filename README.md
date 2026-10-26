@@ -75,3 +75,7 @@ Chapter data and quiz scores are stored locally in the app/browser. Clearing bro
 - Add actual previous-year papers and check answer keys.
 - Test on small Android screens, airplane mode, and a fresh install.
 - Add accessibility labels, privacy information, app icon/branding approval and a versioned content-update process.
+
+
+## Online PDF documents
+See `FIREBASE_SETUP_KN.md` for the Firebase setup required for shared online PDF upload. Uploading will not work until Firebase is configured and its rules are published.
